@@ -87,10 +87,10 @@
     <servlet-name>AvailabilityCheckerServlet</servlet-name>
     <url-pattern>/availability</url-pattern>
   </servlet-mapping>
-  <!-- <servlet-mapping>
+  <servlet-mapping>
     <servlet-name>DB2ConnectionCheckerServlet</servlet-name>
     <url-pattern>/db/connect</url-pattern>
-  </servlet-mapping> -->
+  </servlet-mapping>
   <servlet-mapping>
     <servlet-name>WelcomeServlet</servlet-name>
     <url-pattern>/welcome</url-pattern>
