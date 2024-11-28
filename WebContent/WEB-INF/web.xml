@@ -43,10 +43,10 @@
     <servlet-name>MyReceivingPOServlet</servlet-name>
     <servlet-class>com.acme.modres.MyPOReceivingServlet</servlet-class>
   </servlet>
-  <!-- <servlet>
+  <servlet>
     <servlet-name>DB2ConnectionCheckerServlet</servlet-name>
     <servlet-class>com.acme.modres.DB2ConnectionCheckerServlet</servlet-class>
-  </servlet> -->
+  </servlet>
   <servlet>
     <servlet-name>ModResortsStaffServlet</servlet-name>
     <servlet-class>com.acme.modres.ModResortsStaffServlet</servlet-class>
