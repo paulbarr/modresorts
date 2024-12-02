@@ -47,10 +47,10 @@
     <servlet-name>DB2ConnectionCheckerServlet</servlet-name>
     <servlet-class>com.acme.modres.DB2ConnectionCheckerServlet</servlet-class>
   </servlet> -->
-  <servlet>
+  <!-- <servlet>
     <servlet-name>ModResortsStaffServlet</servlet-name>
     <servlet-class>com.acme.modres.ModResortsStaffServlet</servlet-class>
-  </servlet>
+  </servlet> -->
   <servlet>
     <servlet-name>JmsConnectionCheckerServlet</servlet-name>
     <servlet-class>com.acme.modres.JmsConnectionCheckerServlet</servlet-class>
@@ -63,10 +63,10 @@
     <servlet-name>MyPOServlet</servlet-name>
     <url-pattern>/po</url-pattern>
   </servlet-mapping>
-  <servlet-mapping>
+  <!-- <servlet-mapping>
     <servlet-name>ModResortsStaffServlet</servlet-name>
     <url-pattern>/staff</url-pattern>
-  </servlet-mapping>
+  </servlet-mapping> -->
   <servlet-mapping>
     <servlet-name>MySendingPOServlet</servlet-name>
     <url-pattern>/send</url-pattern>
