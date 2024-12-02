@@ -43,10 +43,10 @@
     <servlet-name>MyReceivingPOServlet</servlet-name>
     <servlet-class>com.acme.modres.MyPOReceivingServlet</servlet-class>
   </servlet>
-  <servlet>
+  <!-- <servlet>
     <servlet-name>DB2ConnectionCheckerServlet</servlet-name>
     <servlet-class>com.acme.modres.DB2ConnectionCheckerServlet</servlet-class>
-  </servlet>
+  </servlet> -->
   <servlet>
     <servlet-name>ModResortsStaffServlet</servlet-name>
     <servlet-class>com.acme.modres.ModResortsStaffServlet</servlet-class>
@@ -87,10 +87,10 @@
     <servlet-name>AvailabilityCheckerServlet</servlet-name>
     <url-pattern>/availability</url-pattern>
   </servlet-mapping>
-  <servlet-mapping>
+  <!-- <servlet-mapping>
     <servlet-name>DB2ConnectionCheckerServlet</servlet-name>
     <url-pattern>/db/connect</url-pattern>
-  </servlet-mapping>
+  </servlet-mapping> -->
   <servlet-mapping>
     <servlet-name>WelcomeServlet</servlet-name>
     <url-pattern>/welcome</url-pattern>
